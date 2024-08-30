@@ -10,7 +10,7 @@ app.get('/api/get',(req,res)=>{
 })
 
 app.get('/api/user',(req,res)=>{
-  res.send({name:'gaurav'})
+  res.send({name:'gaurav',profession:'devloper'})
 })
 
 
